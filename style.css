@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+html *{ 
+    background-color: #ADD8E6;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    text-align: center;
+
+}
+.container { 
+    display: flex;
+    justify-content: center;
+}
+.button { 
+    margin: 0px 5px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
