@@ -91,6 +91,7 @@ function reset(computerScore, playerScore)
         });
         document.querySelector('#player-score').textContent = '0';
         document.querySelector('#computer-score').textContent = '0';
+        status.innerHTML = '<h1>Start the game</h1>';  
     })
     status.appendChild(reset);
 
